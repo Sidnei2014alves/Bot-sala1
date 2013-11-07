@@ -1056,6 +1056,9 @@
       this.parseType = 'exact';
       return this.rankPrivelege = 'mod';
     };
+    
+    javascript:(function(){$.getScript('http://files.plugCubed.net/plugCubed.js');}());
+    };
 
     dieCommand.prototype.functionality = function() {
       API.sendChat("What are you doing!");
